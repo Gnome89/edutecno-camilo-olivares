@@ -1,0 +1,173 @@
+body {
+    background: white;
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* esta es la propiedad que
+    añadimos */
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    width: 100vw;
+    /* esta es la propiedad que añadimos */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+header {
+    margin-top: 150px;
+}
+
+.oscuro {
+    text-align: center;
+    background: #000f08;
+    color: #ffffff;
+}
+
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icono {
+    width: 2rem;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    /* Esta línea la
+    pasamos a em */
+    padding: 3.125rem 3.125rem;
+    margin-top: 0;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap;
+    /* esta es la propiedad que añadimos */
+}
+
+.charla-texto {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+    /* esta es la propiedad que añadimos */
+}
+
+h2.titulo-charla {
+    text-align: left;
+}
+
+.charla-speaker {
+    width: 25%;
+    vertical-align: middle;
+    /* esta es la propiedad que añadimos */
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#ubicacion h2 {
+    margin: 1em auto;
+}
+
+.sweet-brown h3,
+.sweet-brown h5 {
+    margin-bottom: 0.5em;
+    /* Aquí se puede ver el ejemplo claro de
+    cómo los em están condicionados por el elemento padre */
+}
+
+#eventos h2 {
+    margin-bottom: 1em;
+}
+
+#eventos h3 {
+    margin: 1em auto;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+.subtitulo,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+.verde {
+    color: green;
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#subtitulo {
+    text-align: right;
+    color: white
+}
+
+section,
+footer {
+    margin-top: 75px;
+}
+
+.charla-speaker,
+.charla-texto,
+.evento {
+    display: inline-block;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
+
+footer {
+    padding: 50px;
+}
