@@ -24,10 +24,6 @@ $(function() {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
-$('.carousel').carousel({
-    interval: false
-})
-
 $(document).ready(function() {
     $('#carouselExampleControls').carousel({
         pause: true,
