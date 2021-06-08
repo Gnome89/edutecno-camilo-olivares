@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.bg-pink {
+    background-color: #e83e8c;
+}
+
+nav img {
+    width: 132px;
+}
+
+h1 {
+    margin-top: 64px;
+    margin-bottom: 74px;
+    text-align: center;
+    font-weight: 700;
+    color: #707070;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0px 53.55px;
+}
+
+footer img {
+    width: 53px;
+}
+
+.bg-celeste {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.fab {
+    font-size: 53px;
+    margin: 14px;
+}
