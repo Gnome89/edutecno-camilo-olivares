@@ -1,0 +1,37 @@
+/*base typography*/
+
+.main {
+    .hero h1 {
+        font-family: $playfair_display;
+        font-style: italic;
+        font-weight: 900;
+        color: $white;
+        font-size: $x-large;
+    }
+    p {
+        font-family: $roboto;
+        font-size: $medium;
+        color: $nickel;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .nombre h2 {
+        font-family: $playfair_display;
+        font-size: $xx-large;
+        font-weight: $playfair-black;
+        font-style: italic;
+        color: $eerie-black;
+    }
+}
+
+.nombre a {
+    font-family: $roboto;
+    color: $spanish-pink;
+    font-size: $medium;
+}
+
+@media screen and(min-width: 768px) {
+    .main .hero h1 {
+        font-size: $xx-large;
+    }
+}

@@ -1,0 +1,11 @@
+/*layout footer*/
+
+.footer {
+    background-color: $eerie-black;
+    &_img {
+        display: block;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

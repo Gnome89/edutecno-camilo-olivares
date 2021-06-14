@@ -1,0 +1,31 @@
+/*components button*/
+
+.color {
+    background: $nickel;
+    color: $white;
+}
+
+.boton-flecha {
+    align-items: flex-end;
+    position: absolute;
+    display: block;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    i {
+        color: #ffffff;
+    }
+}
+
+.pagination {
+    .page-link {
+        color: $eerie-black;
+    }
+    li .color-text {
+        color: $light-gray;
+    }
+    li .bg-color {
+        background-color: $nickel;
+        color: $white;
+    }
+}

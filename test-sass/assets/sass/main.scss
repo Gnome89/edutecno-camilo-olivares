@@ -1,0 +1,31 @@
+h1 {
+    font-family: monospace;
+    color: peru;
+}
+
+// Componentes del sitio
+@import 'components/buttons';
+@import 'components/dropdown';
+@import 'components/inputs';
+//Comentarios de linea. Viven solo en scss.
+
+/** Comentarios de bloques. Viven en scss y se exportan a css */
+
+// Orden de carga patrón 7-1
+// La carga dentro de este archivo deberá tener la siguiente estructura a modo de evitar errores
+// de carga o cascada:
+// Esto significa que al ingresar los archivos dentro del manifiesto estos deberán ser
+// ingresados comenzando con parciales de abstracts y terminando con themes.
+// Según nos especifica Sass guideline: Para mantener la legibilidad en el manifiesto, el
+// archivo deberá:
+// ● Ir un archivo por @import.
+// ● Haber un @import por línea.
+// ● No hay que dejar una línea después de importar archivos de la misma carpeta.
+// ● La extensión del archivo y guión bajo deberá ser omitido de la ruta.
+// abstracts/
+// vendors/
+// base/
+// layout/
+// components/
+// pages/
+// themes/

@@ -1,0 +1,34 @@
+/*vendor jquery-ui*/
+
+@media (max-width: 767px) {
+    .main {
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 18px xx-large;
+            font-weight: 400;
+            color: #fff;
+        }
+        .nombre h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px xx-large;
+            font-weight: 900;
+            font-style: italic;
+            color: #121619;
+        }
+    }
+}
+
+// @media (max-width: 767px) {
+//     .jumbotron img {
+//         height: auto;
+//         width: auto;
+//         max-width: 100px;
+//         max-height: 100px;
+//     }
+// }
+@media (max-width: 767px) {
+    .boton-tx {
+        text-align-last: center;
+    }
+}
