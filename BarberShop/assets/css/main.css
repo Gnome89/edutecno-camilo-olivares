@@ -9897,6 +9897,21 @@ h3 {
     border-color: #dee2e6;
   }
 }
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9946,6 +9961,11 @@ h3 {
   width: 78px;
 }
 
+.navigationbar {
+  width: 100%;
+  justify-content: space-between;
+}
+
 /* main-section layout*/
 .hero {
   background-image: url("../img/post-image.jpg");
@@ -9953,24 +9973,10 @@ h3 {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
-}
-
-.hero_container {
-  width: 50vw;
-}
-
-.jumbotron {
-  background-color: #fff;
-  border-style: solid;
-  border-color: #E6E7E7;
-  border-width: 2px;
-  border-bottom: none;
-  margin-bottom: 0;
 }
 
 .color-bgr {
