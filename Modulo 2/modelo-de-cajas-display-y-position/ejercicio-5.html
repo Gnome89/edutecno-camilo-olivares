@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        body { 
+            margin: 0;
+            padding: 0;
+        }
+
+        .imagen {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .imagen_container {
+            display: block;
+            position: relative;
+            width: 35%;
+            -webkit-transform: translateY(200px);   
+            -ms-transform: translateY(200px);
+            transform: translateY(200px);
+            margin: 0 auto;
+        }
+
+        .imagen_item {
+            /* position: ;
+            top: 0;
+            left: 0; */
+            width: 100%;
+            }
+
+            .imagen_ribbon {
+                position: absolute;
+                z-index: 1;
+                width: 80%;
+                top: 46%;
+                left: 49%;
+                transform: translate(-50%,-50%);
+            }
+
+    </style>
+</head>
+<body>
+    <section class="imagen">
+        <div class="imagen_container">
+            <img src="assets/img/ejercicio-5_ribbon.png" alt="" class="imagen_ribbon">
+            <img src="assets/img/ejercicio-5_item.jpg" alt="" class="imagen_item">
+        </div>
+    </section>
+    
+</body>
+</html>

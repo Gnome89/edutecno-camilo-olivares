@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio-3</title>
+    <style media="screen" type="text/css">
+    html, body {
+        margin: 10%;
+        padding: 0;
+        width: 100%;
+            }
+
+            .container {
+                position: absolute;
+                top: 15%;
+                left: 25%;
+                width: 70%;
+                padding-bottom: 10%;
+            }
+
+            .flag {
+                height: 277px;
+                width: 349px;
+                margin: 10px;
+                display: inline-block;
+            }
+
+            .flag_spain {
+                background-color: red;
+                position: relative;
+                border: 1px solid gray;
+            }
+
+            .flag_spain_line {
+                position: absolute;
+                background-color: yellow;
+                height: 40%;
+                width: 100%;
+                top: 30%;
+            }
+
+            .flag_dinamarca {
+                position:relative;
+                background-color: red;
+                border: 1px solid gray;
+                }
+
+            .flag_dinamarca_line {
+                position: absolute;
+                width: 100%;
+                height: 10%;
+                background-color: white;
+                top: 45%;
+            }
+
+            .flag_dinamarca_line--vertical {
+                position: absolute;
+                width: 8%;
+                height: 100%;
+                background-color: white;
+                left: 25%;
+            }
+
+            .flag_emiratos {
+                position: relative;
+                background-color: white;
+                border: 1px solid gray;
+            }
+
+            .red {
+                background-color: red;
+                height: 100%;
+                width: 30%;
+                position: absolute;
+                }
+
+            .green {
+                background-color: green;
+                position: absolute;
+                height: 33%;
+                width: 70%;
+                left: 30%;
+            }
+
+            .black {
+                background-color: black;
+                position: absolute;
+                height: 33.33333%;
+                width: 70%;
+                left: 30%;
+                bottom: 0;
+            }
+
+            .flag_japon {
+                background-color: white;
+                position: relative;
+                border: 1px solid gray;
+            }
+
+            .circle {
+                position: absolute;
+                background-color: red;
+                top: calc(50% - 50px);
+                left: calc(47% - 50px);
+                width: 35%;
+                height: 35%;
+                border-radius: 100%
+            }
+
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="flag flag_spain">
+            <span class="flag_spain_line"></span>
+        </div>
+
+<div class="flag flag_dinamarca">
+    <span class="flag_dinamarca_line"></span>
+        <span class="flag_dinamarca_line--vertical"></span>
+</div>
+
+<div class="flag flag_emiratos">
+    <span class="red"></span>
+    <span class="green"></span>
+    <span class="black"></span>
+    </div>
+
+    <div class="flag flag_japon">
+        <span class="circle"></span>
+    </div>
+
+
+    </div>
+</body>
+</html>
