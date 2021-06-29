@@ -1,7 +1,61 @@
-/**
- * Basic typography style for copy text
- */
-body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+
+/*base typography*/
+
+.header {
+    .navbar__menu .menu__link {
+        font-family: $raleway;
+        font-size: $small;
+        font-weight: $bold;
+        color: $smoky-black;
+    }
+}
+
+main {
+    .elemento1__h1 {
+        font-family: $oldstandard;
+        font-size: $xxx-large;
+        font-weight: $bold;
+    }
+    .elemento1__p {
+        font-family: $raleway;
+        font-size: $x-small;
+        font-weight: $regular;
+        color: $granite-gray;
+        margin-right: 35%;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .elemento1__btn {
+        font-family: $raleway;
+        font-size: $small;
+        font-weight: $bold;
+    }
+    .elemento2__h1 {
+        font-family: $oldstandard;
+        font-size: $xx-large;
+        font-weight: $bold;
+        color: $white;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+    .elemento2__sp {
+        font-family: $oldstandard;
+        font-size: $small;
+        font-weight: $bold;
+        color: $white;
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .elemento2__inp {
+        font-family: $raleway;
+        font-size: $x-small;
+        font-weight: $regular;
+        color: $granite-gray;
+    }
+    .elemento3__p {
+        font-family: $oldstandard;
+        font-size: $large;
+        font-weight: $bold;
+    }
 }
