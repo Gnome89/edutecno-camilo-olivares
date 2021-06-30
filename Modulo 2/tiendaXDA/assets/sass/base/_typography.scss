@@ -2,7 +2,7 @@
 /*base typography*/
 
 .header {
-    .navbar__menu .menu__link {
+    .navbar_menu .menu_link {
         font-family: $raleway;
         font-size: $small;
         font-weight: $bold;
@@ -11,12 +11,12 @@
 }
 
 main {
-    .elemento1__h1 {
-        font-family: $oldstandard;
+    .elemento1_h1 {
+        font-family: $raleway;
         font-size: $xxx-large;
         font-weight: $bold;
     }
-    .elemento1__p {
+    .elemento1_p {
         font-family: $raleway;
         font-size: $x-small;
         font-weight: $regular;
@@ -25,12 +25,12 @@ main {
         line-height: 20px;
         margin-bottom: 20px;
     }
-    .elemento1__btn {
+    .elemento1_btn {
         font-family: $raleway;
         font-size: $small;
         font-weight: $bold;
     }
-    .elemento2__h1 {
+    .elemento2_h1 {
         font-family: $oldstandard;
         font-size: $xx-large;
         font-weight: $bold;
@@ -39,7 +39,7 @@ main {
         margin-bottom: 20px;
         margin-left: 80px;
     }
-    .elemento2__sp {
+    .elemento2_sp {
         font-family: $oldstandard;
         font-size: $small;
         font-weight: $bold;
@@ -47,13 +47,13 @@ main {
         margin-top: 100px;
         margin-left: 80px;
     }
-    .elemento2__inp {
+    .elemento2_inp {
         font-family: $raleway;
         font-size: $x-small;
         font-weight: $regular;
         color: $granite-gray;
     }
-    .elemento3__p {
+    .elemento3_p {
         font-family: $oldstandard;
         font-size: $large;
         font-weight: $bold;

@@ -12,14 +12,14 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    .header__navbar {
+    .header_navbar {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        .navbar__logo {
+        .navbar_logo {
             width: 50px;
             height: 3vw;
             background-color: $smoky-black;
@@ -29,22 +29,22 @@
             line-height: 3vw;
             text-align: center;
         }
-        .navbar__menu {
+        .navbar_menu {
             width: 25%;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            .menu__items {
+            .menu_items {
                 list-style: none;
             }
-            .menu__link {
+            .menu_link {
                 margin: 0 10px;
                 flex-grow: 1;
                 text-decoration: none;
             }
         }
-        .menu__boton,
-        .menu__checkbox {
+        .menu_boton,
+        .menu_checkbox {
             display: none;
         }
     }
