@@ -1,0 +1,94 @@
+/*base typography*/
+
+.header {
+    .navbar__logo {
+        font-family: 'Limelight', cursive;
+        font-size: $size1;
+        color: $granite-gray
+    }
+    .navegacion__link {
+        font-family: 'Century Gothic';
+        font-size: $size6;
+        color: $quick-silver;
+    }
+    .buscar__control {
+        font-family: 'Century Gothic';
+        font-style: italic;
+        font-size: $size7;
+    }
+}
+
+.main {
+    .contenido__lateral {
+        .lateral__nosotros {
+            p {
+                font-family: 'Century Gothic';
+                font-size: $size6;
+                color: $quick-silver;
+            }
+            h3 {
+                font-family: 'Century Gothic';
+                font-weight: bold;
+                font-size: $size5;
+            }
+        }
+        .lateral__taggs {
+            h3 {
+                font-family: 'Century Gothic';
+                font-weight: bold;
+                font-size: $size5;
+            }
+            .items__link {
+                font-family: 'Century Gothic';
+                font-size: $size7;
+                color: $white;
+            }
+        }
+        .lateral__destacados {
+            h3 {
+                font-family: 'Century Gothic';
+                font-weight: bold;
+                font-size: $size5;
+            }
+            p {
+                font-family: 'Century Gothic';
+                font-weight: bold;
+                font-size: $size7;
+                color: $quick-silver;
+            }
+        }
+    }
+    .contenido_cuerpo1 h2 {
+        font-family: 'Century Gothic';
+        font-size: $size3;
+    }
+    p {
+        font-family: 'Century Gothic';
+        font-size: $size6;
+        color: $quick-silver;
+    }
+}
+
+.suscripcion__mensaje {
+    .mensaje__h3 {
+        font-family: 'Century Gothic';
+        font-size: $size2;
+    }
+    p {
+        font-family: 'Century Gothic';
+        font-size: $size6;
+        color: $quick-silver;
+    }
+}
+
+.mensaje__boton {
+    font-family: 'Century Gothic';
+    font-size: $size7;
+    color: $white;
+}
+
+.footer p {
+    font-family: 'Century Gothic';
+    font-size: $size6;
+    color: $quick-silver;
+}

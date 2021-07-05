@@ -1,0 +1,28 @@
+/*layout buttons*/
+
+.header__navbar {
+    .navbar__buscar {
+        margin-right: 10px;
+        .buscar__control {
+            border-radius: 50px;
+            border: 1px solid $griss;
+            padding: 3px;
+            width: 100px;
+        }
+    }
+}
+
+.suscripcion__mensaje {
+    .mensaje__input {
+        border: none;
+        padding: 0px;
+        width: 120px;
+    }
+    .mensaje__boton {
+        background-color: $ruby;
+        border: none;
+        padding: 0px;
+        width: 100px;
+        text-align: center;
+    }
+}

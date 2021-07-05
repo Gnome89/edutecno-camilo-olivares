@@ -1,0 +1,23 @@
+{
+  "name": "edutecno-camilo-olivares",
+  "version": "1.0.0",
+  "description": "html-css-javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gnome89/edutecno-camilo-olivares.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gnome89/edutecno-camilo-olivares/issues"
+  },
+  "homepage": "https://github.com/Gnome89/edutecno-camilo-olivares#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
