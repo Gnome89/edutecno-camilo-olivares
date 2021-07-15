@@ -1,17 +1,47 @@
 .contenedor {
-    width: 960px;
+    width: 700px;
     margin: 0 auto;
 }
 
+
 .menu {
+    display: flex;
     width: 960px;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid $white;
+    margin: 0 0 30px 0 ;
+    justify-content:space-between;
+    .logo{
+        margin: 10px;
+        width: 200px;
+       }
 }
 
-.input-menu {
-    border-radius: 30px;
+.nav {
+    font-size: $size7;
+    margin-left: 350px;
+    width: 600px;
+    height: 60px;
+    text-align: right;
 }
+
+.nav ul {
+    float: right;
+    display: flex;
+    margin: 20px;
+    }
+
+    li  {
+       padding: 10px;
+       list-style: none;
+       text-decoration: none;
+       text-transform: uppercase;
+       }
+
+
+.input-menu {
+        border-radius: 30px;
+    }
 
 .logo {
     font-size: 24px;
@@ -20,13 +50,3 @@
     display: inline-block;
 }
 
-
-.nav {
-    display: block;
-    width: 840px;
-    text-align: right;
-    .nav ul li a {
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-}
